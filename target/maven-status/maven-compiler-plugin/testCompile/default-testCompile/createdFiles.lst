@@ -1,0 +1,5 @@
+com\StepDefinitions\PromotionsPageDefs.class
+com\StepDefinitions\ContentManagemetDefs.class
+com\TextExecutor\TestRunner.class
+com\StepDefinitions\NopCommerceShoppingDefs.class
+com\StepDefinitions\Hooks.class

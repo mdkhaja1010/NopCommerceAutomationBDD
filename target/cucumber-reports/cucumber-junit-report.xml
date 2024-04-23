@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="56.708" tests="3" skipped="0" failures="0" errors="0">
+<testcase classname="As a user I want to validate NopCommerceApplication" name="Verify the user able to shop the contents in the application" time="42.382">
+<system-out><![CDATA[
+Given Launch Nop Commerce Application.......................................passed
+And Enter the valid credentials for accessing NopCommerceApplication........passed
+And Enter the contents modules..............................................passed
+And Click on the topics button..............................................passed
+And Click on the message button.............................................passed
+And Click on the newsitem button............................................passed
+And Click on the newscomments button........................................passed
+And Click on the blogspot button............................................passed
+And Click on the blogscomments button.......................................passed
+And Click on the polls button...............................................passed
+Then Click on the forums button.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="As a user I want to validate NopCommerceApplication" name="Verify the user able to shop the promotions in the application" time="43.26">
+<system-out><![CDATA[
+Given Launch Nop Commerce Application.......................................passed
+And Enter the valid credentials for accessing NopCommerceApplication........passed
+And Enter the promotions Module.............................................passed
+And Click on the discountsbtn...............................................passed
+And Click on the affilaties button..........................................passed
+And Click on the news letter button.........................................passed
+Then Clik on the compaings button...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="As a user I want to validate NopCommerceApplication" name="Verify the user able to shop the product in the application" time="55.895">
+<system-out><![CDATA[
+Given Launch Nop Commerce Application.......................................passed
+And Enter the valid credentials for accessing NopCommerceApplication........passed
+And Enter the Customer Module...............................................passed
+And Click on the Customers button...........................................passed
+And Click on the add new button.............................................passed
+And Click on the enter new user details.....................................passed
+Then Click on the save button...............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
