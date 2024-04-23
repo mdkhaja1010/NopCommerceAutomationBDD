@@ -1,31 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-22T16:31:23 IST" name="Default suite" finished-at="2024-04-22T16:31:49 IST" duration-ms="26266">
+  <suite started-at="2024-04-23T17:51:55 IST" name="Default suite" finished-at="2024-04-23T17:52:59 IST" duration-ms="64578">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TextExecutor.TestRunner@1ebea008]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-04-22T16:31:23 IST" name="Default test" finished-at="2024-04-22T16:31:49 IST" duration-ms="26266">
+    <test started-at="2024-04-23T17:51:55 IST" name="Default test" finished-at="2024-04-23T17:52:59 IST" duration-ms="64578">
       <class name="com.TextExecutor.TestRunner">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.TextExecutor.TestRunner@1ebea008]" started-at="2024-04-22T16:31:22 IST" name="beforeSuite" finished-at="2024-04-22T16:31:22 IST" duration-ms="24" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.TextExecutor.TestRunner@1ebea008]" started-at="2024-04-23T17:51:55 IST" name="beforeSuite" finished-at="2024-04-23T17:51:55 IST" duration-ms="50" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.TextExecutor.TestRunner@1ebea008]" started-at="2024-04-22T16:31:23 IST" name="setUpClass" finished-at="2024-04-22T16:31:24 IST" duration-ms="1393" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.TextExecutor.TestRunner@1ebea008]" started-at="2024-04-23T17:51:55 IST" name="setUpClass" finished-at="2024-04-23T17:51:57 IST" duration-ms="2721" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@3c4bc9fc]]>
+                <![CDATA[org.testng.TestRunner@3e598df9]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TextExecutor.TestRunner@1ebea008]" started-at="2024-04-22T16:31:24 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-22T16:31:47 IST" duration-ms="23096" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TextExecutor.TestRunner@1ebea008]" started-at="2024-04-23T17:51:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-23T17:52:44 IST" duration-ms="46776" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the user able to shop the contents in the application"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["As a user I want to validate NopCommerceApplication"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TextExecutor.TestRunner@1ebea008]" started-at="2024-04-23T17:51:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-23T17:52:58 IST" duration-ms="60613" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -38,45 +54,10 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Unable to find element with locator By.cssSelector: #Email
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.16.1', revision: '9b4c83354e'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: driver.version: EventFiringWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.cssSelector: #Email
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.16.1', revision: '9b4c83354e'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: driver.version: EventFiringWebDriver
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:168)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
-at jdk.proxy2/jdk.proxy2.$Proxy27.findElement(Unknown Source)
-at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy31.clear(Unknown Source)
-at com.Utilities.ReusableUtils.updateElementValue(ReusableUtils.java:187)
-at com.Pages.NopCommerceShoppingPage.enterValidCredentials(NopCommerceShoppingPage.java:45)
-at com.StepDefinitions.NopCommerceShoppingDefs.enter_the_valid_credentials_for_accessing_nop_commerce_application(NopCommerceShoppingDefs.java:27)
-at ✽.Enter the valid credentials for accessing NopCommerceApplication(file:///C:/Users/KhajaMohammed-Kairos/eclipse-workspace/ImranProject_Cucumber/src/test/resources/Features/shopping.feature:4)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TextExecutor.TestRunner@1ebea008]" started-at="2024-04-22T16:31:24 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-22T16:31:48 IST" duration-ms="23912" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TextExecutor.TestRunner@1ebea008]" started-at="2024-04-23T17:51:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-23T17:52:39 IST" duration-ms="41031" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -89,49 +70,14 @@ at ✽.Enter the valid credentials for accessing NopCommerceApplication(file:///
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Unable to find element with locator By.cssSelector: #Email
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.16.1', revision: '9b4c83354e'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: driver.version: EventFiringWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.cssSelector: #Email
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.16.1', revision: '9b4c83354e'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: driver.version: EventFiringWebDriver
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:168)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
-at jdk.proxy2/jdk.proxy2.$Proxy27.findElement(Unknown Source)
-at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy31.clear(Unknown Source)
-at com.Utilities.ReusableUtils.updateElementValue(ReusableUtils.java:187)
-at com.Pages.NopCommerceShoppingPage.enterValidCredentials(NopCommerceShoppingPage.java:45)
-at com.StepDefinitions.NopCommerceShoppingDefs.enter_the_valid_credentials_for_accessing_nop_commerce_application(NopCommerceShoppingDefs.java:27)
-at ✽.Enter the valid credentials for accessing NopCommerceApplication(file:///C:/Users/KhajaMohammed-Kairos/eclipse-workspace/ImranProject_Cucumber/src/test/resources/Features/shopping.feature:4)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.TextExecutor.TestRunner@1ebea008]" started-at="2024-04-22T16:31:48 IST" name="tearDownClass" finished-at="2024-04-22T16:31:49 IST" duration-ms="866" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.TextExecutor.TestRunner@1ebea008]" started-at="2024-04-23T17:52:58 IST" name="tearDownClass" finished-at="2024-04-23T17:52:59 IST" duration-ms="1076" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.TextExecutor.TestRunner@1ebea008]" started-at="2024-04-22T16:31:49 IST" name="afterSuite" finished-at="2024-04-22T16:31:49 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.TextExecutor.TestRunner@1ebea008]" started-at="2024-04-23T17:52:59 IST" name="afterSuite" finished-at="2024-04-23T17:52:59 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->

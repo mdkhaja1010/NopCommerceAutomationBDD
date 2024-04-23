@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="56.708" tests="3" skipped="0" failures="0" errors="0">
-<testcase classname="As a user I want to validate NopCommerceApplication" name="Verify the user able to shop the contents in the application" time="42.382">
+<testsuite name="Cucumber" time="61.111" tests="3" skipped="0" failures="0" errors="0">
+<testcase classname="As a user I want to validate NopCommerceApplication" name="Verify the user able to shop the contents in the application" time="46.235">
 <system-out><![CDATA[
 Given Launch Nop Commerce Application.......................................passed
 And Enter the valid credentials for accessing NopCommerceApplication........passed
@@ -15,7 +15,7 @@ And Click on the polls button...............................................pass
 Then Click on the forums button.............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="As a user I want to validate NopCommerceApplication" name="Verify the user able to shop the promotions in the application" time="43.26">
+<testcase classname="As a user I want to validate NopCommerceApplication" name="Verify the user able to shop the promotions in the application" time="40.481">
 <system-out><![CDATA[
 Given Launch Nop Commerce Application.......................................passed
 And Enter the valid credentials for accessing NopCommerceApplication........passed
@@ -26,7 +26,7 @@ And Click on the news letter button.........................................pass
 Then Clik on the compaings button...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="As a user I want to validate NopCommerceApplication" name="Verify the user able to shop the product in the application" time="55.895">
+<testcase classname="As a user I want to validate NopCommerceApplication" name="Verify the user able to shop the product in the application" time="60.079">
 <system-out><![CDATA[
 Given Launch Nop Commerce Application.......................................passed
 And Enter the valid credentials for accessing NopCommerceApplication........passed

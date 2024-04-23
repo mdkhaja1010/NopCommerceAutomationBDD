@@ -1,51 +1,51 @@
-Verify the user able to shop the contents in the applicationexecution is started
 Verify the user able to shop the product in the applicationexecution is started
+Verify the user able to shop the contents in the applicationexecution is started
 Verify the user able to shop the promotions in the applicationexecution is started
 https://admin-demo.nopcommerce.com:/login;URL Loaded on the browser 
 https://admin-demo.nopcommerce.com:/login;URL Loaded on the browser 
-admin@yourstore.comupdate value to context[[ChromeDriver: chrome on windows (69b153aa0745367d991bb2feef7d0675)] -> css selector: #Email]
+admin@yourstore.comupdate value to context[[ChromeDriver: chrome on windows (0bea90909a1529d1a47a71f789df66e7)] -> css selector: #Email]
+admin@yourstore.comupdate value to context[[ChromeDriver: chrome on windows (3736e0ff95bb4791ee8ffb0cc82d9627)] -> css selector: #Email]
 https://admin-demo.nopcommerce.com:/login;URL Loaded on the browser 
-admin@yourstore.comupdate value to context[[ChromeDriver: chrome on windows (c9350841722e3188667e9cdeeeb7ed9c)] -> css selector: #Email]
-admin@yourstore.comupdate value to context[[ChromeDriver: chrome on windows (672c3641f6441f9303718bc4d24db0d1)] -> css selector: #Email]
-admin@yourstore.comupdate value on element[[ChromeDriver: chrome on windows (69b153aa0745367d991bb2feef7d0675)] -> css selector: #Email]
-adminupdate value to context[[ChromeDriver: chrome on windows (69b153aa0745367d991bb2feef7d0675)] -> css selector: #Password]
-admin@yourstore.comupdate value on element[[ChromeDriver: chrome on windows (672c3641f6441f9303718bc4d24db0d1)] -> css selector: #Email]
-adminupdate value to context[[ChromeDriver: chrome on windows (672c3641f6441f9303718bc4d24db0d1)] -> css selector: #Password]
-admin@yourstore.comupdate value on element[[ChromeDriver: chrome on windows (c9350841722e3188667e9cdeeeb7ed9c)] -> css selector: #Email]
-adminupdate value to context[[ChromeDriver: chrome on windows (c9350841722e3188667e9cdeeeb7ed9c)] -> css selector: #Password]
-adminupdate value on element[[ChromeDriver: chrome on windows (69b153aa0745367d991bb2feef7d0675)] -> css selector: #Password]
-adminupdate value on element[[ChromeDriver: chrome on windows (672c3641f6441f9303718bc4d24db0d1)] -> css selector: #Password]
-adminupdate value on element[[ChromeDriver: chrome on windows (c9350841722e3188667e9cdeeeb7ed9c)] -> css selector: #Password]
+admin@yourstore.comupdate value on element[[ChromeDriver: chrome on windows (3736e0ff95bb4791ee8ffb0cc82d9627)] -> css selector: #Email]
+admin@yourstore.comupdate value to context[[ChromeDriver: chrome on windows (a8688174b5adfd2bf6e9d498d9d1787c)] -> css selector: #Email]
+admin@yourstore.comupdate value on element[[ChromeDriver: chrome on windows (0bea90909a1529d1a47a71f789df66e7)] -> css selector: #Email]
+adminupdate value to context[[ChromeDriver: chrome on windows (3736e0ff95bb4791ee8ffb0cc82d9627)] -> css selector: #Password]
+adminupdate value to context[[ChromeDriver: chrome on windows (0bea90909a1529d1a47a71f789df66e7)] -> css selector: #Password]
+adminupdate value on element[[ChromeDriver: chrome on windows (3736e0ff95bb4791ee8ffb0cc82d9627)] -> css selector: #Password]
+adminupdate value on element[[ChromeDriver: chrome on windows (0bea90909a1529d1a47a71f789df66e7)] -> css selector: #Password]
+admin@yourstore.comupdate value on element[[ChromeDriver: chrome on windows (a8688174b5adfd2bf6e9d498d9d1787c)] -> css selector: #Email]
+adminupdate value to context[[ChromeDriver: chrome on windows (a8688174b5adfd2bf6e9d498d9d1787c)] -> css selector: #Password]
+adminupdate value on element[[ChromeDriver: chrome on windows (a8688174b5adfd2bf6e9d498d9d1787c)] -> css selector: #Password]
 Proxy element for: DefaultElementLocator 'By.cssSelector: .button-1'-webElement clicked
-[[ChromeDriver: chrome on windows (69b153aa0745367d991bb2feef7d0675)] -> xpath: //a[@class='nav-link']//i//following-sibling::p[text()[normalize-space()='Content management']]]-webElement clicked
+[[ChromeDriver: chrome on windows (a8688174b5adfd2bf6e9d498d9d1787c)] -> xpath: //a[@class='nav-link']//i//following-sibling::p[text()[normalize-space()='Content management']]]-webElement clicked
 Proxy element for: DefaultElementLocator 'By.cssSelector: .button-1'-webElement clicked
-[[ChromeDriver: chrome on windows (c9350841722e3188667e9cdeeeb7ed9c)] -> xpath: //a[@href='#']//p[contains(text(),'Customers')]]-webElement clicked
-[[ChromeDriver: chrome on windows (69b153aa0745367d991bb2feef7d0675)] -> xpath: //p[text()[normalize-space()='Topics (pages)']]]-webElement clicked
-[[ChromeDriver: chrome on windows (69b153aa0745367d991bb2feef7d0675)] -> xpath: //p[text()[normalize-space()='Message templates']]]-webElement clicked
-[[ChromeDriver: chrome on windows (69b153aa0745367d991bb2feef7d0675)] -> xpath: //p[text()[normalize-space()='News items']]]-webElement clicked
 Proxy element for: DefaultElementLocator 'By.cssSelector: .button-1'-webElement clicked
-[[ChromeDriver: chrome on windows (672c3641f6441f9303718bc4d24db0d1)] -> xpath: //p[text()[normalize-space() = 'Promotions']]]-webElement clicked
-[[ChromeDriver: chrome on windows (69b153aa0745367d991bb2feef7d0675)] -> xpath: //p[text()[normalize-space()='News comments']]]-webElement clicked
-[[ChromeDriver: chrome on windows (69b153aa0745367d991bb2feef7d0675)] -> xpath: //p[text()[normalize-space()='Blog comments']]]-webElement clicked
-[[ChromeDriver: chrome on windows (672c3641f6441f9303718bc4d24db0d1)] -> xpath: //p[text()[normalize-space() = 'Discounts']]]-webElement clicked
-[[ChromeDriver: chrome on windows (69b153aa0745367d991bb2feef7d0675)] -> xpath: //p[text()[normalize-space()='Blog comments']]]-webElement clicked
-[[ChromeDriver: chrome on windows (672c3641f6441f9303718bc4d24db0d1)] -> xpath: //p[text()[normalize-space() = 'Affiliates']]]-webElement clicked
-[[ChromeDriver: chrome on windows (69b153aa0745367d991bb2feef7d0675)] -> xpath: //p[text()[normalize-space()='Polls']]]-webElement clicked
-[[ChromeDriver: chrome on windows (672c3641f6441f9303718bc4d24db0d1)] -> xpath: //p[text()[normalize-space() = 'Newsletter subscribers']]]-webElement clicked
-[[ChromeDriver: chrome on windows (69b153aa0745367d991bb2feef7d0675)] -> xpath: //p[text()[normalize-space()='Forums']]]-webElement clicked
-Verify the user able to shop the contents in the applicationScenario is passed
-Proxy element for: DefaultElementLocator 'By.xpath: (//a[@class='nav-link']//p[text()[normalize-space() = 'Customers']])[2]'-webElement clicked
-[[ChromeDriver: chrome on windows (672c3641f6441f9303718bc4d24db0d1)] -> xpath: //p[text()[normalize-space() = 'Campaigns']]]-webElement clicked
+[[ChromeDriver: chrome on windows (3736e0ff95bb4791ee8ffb0cc82d9627)] -> xpath: //p[text()[normalize-space() = 'Promotions']]]-webElement clicked
+[[ChromeDriver: chrome on windows (0bea90909a1529d1a47a71f789df66e7)] -> xpath: //a[@href='#']//p[contains(text(),'Customers')]]-webElement clicked
+[[ChromeDriver: chrome on windows (3736e0ff95bb4791ee8ffb0cc82d9627)] -> xpath: //p[text()[normalize-space() = 'Discounts']]]-webElement clicked
+[[ChromeDriver: chrome on windows (a8688174b5adfd2bf6e9d498d9d1787c)] -> xpath: //p[text()[normalize-space()='Topics (pages)']]]-webElement clicked
+[[ChromeDriver: chrome on windows (3736e0ff95bb4791ee8ffb0cc82d9627)] -> xpath: //p[text()[normalize-space() = 'Affiliates']]]-webElement clicked
+[[ChromeDriver: chrome on windows (a8688174b5adfd2bf6e9d498d9d1787c)] -> xpath: //p[text()[normalize-space()='Message templates']]]-webElement clicked
+[[ChromeDriver: chrome on windows (3736e0ff95bb4791ee8ffb0cc82d9627)] -> xpath: //p[text()[normalize-space() = 'Newsletter subscribers']]]-webElement clicked
+[[ChromeDriver: chrome on windows (a8688174b5adfd2bf6e9d498d9d1787c)] -> xpath: //p[text()[normalize-space()='News items']]]-webElement clicked
+[[ChromeDriver: chrome on windows (3736e0ff95bb4791ee8ffb0cc82d9627)] -> xpath: //p[text()[normalize-space() = 'Campaigns']]]-webElement clicked
 Verify the user able to shop the promotions in the applicationScenario is passed
+[[ChromeDriver: chrome on windows (a8688174b5adfd2bf6e9d498d9d1787c)] -> xpath: //p[text()[normalize-space()='News comments']]]-webElement clicked
+[[ChromeDriver: chrome on windows (a8688174b5adfd2bf6e9d498d9d1787c)] -> xpath: //p[text()[normalize-space()='Blog comments']]]-webElement clicked
+[[ChromeDriver: chrome on windows (a8688174b5adfd2bf6e9d498d9d1787c)] -> xpath: //p[text()[normalize-space()='Blog comments']]]-webElement clicked
+[[ChromeDriver: chrome on windows (a8688174b5adfd2bf6e9d498d9d1787c)] -> xpath: //p[text()[normalize-space()='Polls']]]-webElement clicked
+Proxy element for: DefaultElementLocator 'By.xpath: (//a[@class='nav-link']//p[text()[normalize-space() = 'Customers']])[2]'-webElement clicked
+[[ChromeDriver: chrome on windows (a8688174b5adfd2bf6e9d498d9d1787c)] -> xpath: //p[text()[normalize-space()='Forums']]]-webElement clicked
+Verify the user able to shop the contents in the applicationScenario is passed
 Proxy element for: DefaultElementLocator 'By.cssSelector: a[class='btn btn-primary']>i.fa-plus-square'-webElement clicked
-abc@gmail.comupdate value to context[[ChromeDriver: chrome on windows (c9350841722e3188667e9cdeeeb7ed9c)] -> css selector: .col-md-9>input#Email]
-abc@gmail.comupdate value on element[[ChromeDriver: chrome on windows (c9350841722e3188667e9cdeeeb7ed9c)] -> css selector: .col-md-9>input#Email]
-12345678update value to context[[ChromeDriver: chrome on windows (c9350841722e3188667e9cdeeeb7ed9c)] -> css selector: .input-group>input#Password]
-12345678update value on element[[ChromeDriver: chrome on windows (c9350841722e3188667e9cdeeeb7ed9c)] -> css selector: .input-group>input#Password]
-Demoupdate value to context[[ChromeDriver: chrome on windows (c9350841722e3188667e9cdeeeb7ed9c)] -> css selector: .col-md-9>input#FirstName]
-Demoupdate value on element[[ChromeDriver: chrome on windows (c9350841722e3188667e9cdeeeb7ed9c)] -> css selector: .col-md-9>input#FirstName]
-Testupdate value to context[[ChromeDriver: chrome on windows (c9350841722e3188667e9cdeeeb7ed9c)] -> css selector: .col-md-9>input#LastName]
-Testupdate value on element[[ChromeDriver: chrome on windows (c9350841722e3188667e9cdeeeb7ed9c)] -> css selector: .col-md-9>input#LastName]
-[[ChromeDriver: chrome on windows (c9350841722e3188667e9cdeeeb7ed9c)] -> css selector: div[class='form-check']>input+label[for='Gender_Male']]-webElement clicked
-[[ChromeDriver: chrome on windows (c9350841722e3188667e9cdeeeb7ed9c)] -> name: save-continue]-webElement clicked
+abc@gmail.comupdate value to context[[ChromeDriver: chrome on windows (0bea90909a1529d1a47a71f789df66e7)] -> css selector: .col-md-9>input#Email]
+abc@gmail.comupdate value on element[[ChromeDriver: chrome on windows (0bea90909a1529d1a47a71f789df66e7)] -> css selector: .col-md-9>input#Email]
+12345678update value to context[[ChromeDriver: chrome on windows (0bea90909a1529d1a47a71f789df66e7)] -> css selector: .input-group>input#Password]
+12345678update value on element[[ChromeDriver: chrome on windows (0bea90909a1529d1a47a71f789df66e7)] -> css selector: .input-group>input#Password]
+Demoupdate value to context[[ChromeDriver: chrome on windows (0bea90909a1529d1a47a71f789df66e7)] -> css selector: .col-md-9>input#FirstName]
+Demoupdate value on element[[ChromeDriver: chrome on windows (0bea90909a1529d1a47a71f789df66e7)] -> css selector: .col-md-9>input#FirstName]
+Testupdate value to context[[ChromeDriver: chrome on windows (0bea90909a1529d1a47a71f789df66e7)] -> css selector: .col-md-9>input#LastName]
+Testupdate value on element[[ChromeDriver: chrome on windows (0bea90909a1529d1a47a71f789df66e7)] -> css selector: .col-md-9>input#LastName]
+[[ChromeDriver: chrome on windows (0bea90909a1529d1a47a71f789df66e7)] -> css selector: div[class='form-check']>input+label[for='Gender_Male']]-webElement clicked
+[[ChromeDriver: chrome on windows (0bea90909a1529d1a47a71f789df66e7)] -> name: save-continue]-webElement clicked
 Verify the user able to shop the product in the applicationScenario is passed

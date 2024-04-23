@@ -37,7 +37,7 @@ public class DriverManager {
     public WebDriver invokeLocalDriver() {
         switch (browserType) {
             case CHROME:
-                WebDriverManager.chromedriver().clearDriverCache().setup();
+               // WebDriverManager.chromedriver().clearDriverCache().setup();
                 ChromeOptions options = new ChromeOptions();
                 options.addArguments("force-device-scale-factor=0.85");
                 options.addArguments("high-dpi-support=0.85");
