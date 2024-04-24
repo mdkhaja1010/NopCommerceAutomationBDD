@@ -1,23 +1,27 @@
 pipeline {
     agent any
-
+ 
     stages {
-        stage('Build') {
+        stage('Checkout') {
             steps {
-                // Replace 'mvn clean install' with the Maven command to build your project
-                bat 'mvn clean install'
+                // Checkout the source code from the Git repository
+                git 'https://github.com/mdkhaja1010/NopCommerceAutomationBDD.git'
             }
         }
-    }
-
-    post {
-        always {
-            emailext(
-                subject: "Pipeline ${currentBuild.result}: ${env.JOB_NAME}",
-                body: "Pipeline ${currentBuild.result}: ${env.BUILD_URL}",
-                to: 'your_email@example.com',
-                attachLog: true,
-            )
+ 
+        stage('Build') {
+            steps {
+                // Build the project
+                bat 'mvn clean package'
+            }
+        }
+ 
+        stage('Test') {
+            steps {
+                // Run tests and generate reports
+                bat 'mvn test'
+                junit 'target/surefire-reports/*.xml'
+            }
         }
     }
 }
