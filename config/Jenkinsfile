@@ -1,6 +1,6 @@
 pipeline {
     agent any
- 
+
     stages {
         stage('Checkout') {
             steps {
@@ -8,19 +8,32 @@ pipeline {
                 git 'https://github.com/mdkhaja1010/NopCommerceAutomationBDD.git'
             }
         }
- 
+
         stage('Build') {
             steps {
                 // Build the project
                 bat 'mvn clean package'
             }
         }
- 
+
         stage('Test') {
             steps {
                 // Run tests and generate reports
                 bat 'mvn test'
                 junit 'target/surefire-reports/*.xml'
+            }
+        }
+
+        stage('Publish Test Reports') {
+            steps {
+                publishHTML(target: [
+                    allowMissing: false,
+                    alwaysLinkToLastBuild: true,
+                    keepAll: true,
+                    reportDir: 'target/surefire-reports',
+                    reportFiles: 'index.html',
+                    reportName: 'Test Results'
+                ])
             }
         }
     }
